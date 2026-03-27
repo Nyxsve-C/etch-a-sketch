@@ -1,9 +1,27 @@
 html {
   box-sizing: border-box;
+  border-color: green;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+* {
+    border: 2px solid red;
+}
+
+body{
+  border-color: orange;
+  text-align: center;
+}
+
+#container {
+  border-color: blue;
+  display: inline-flex;
+  aspect-ratio: 1/1;
+  max-width: 100%;
+  max-height: 100%;
 }
