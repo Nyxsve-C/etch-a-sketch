@@ -10,18 +10,31 @@ html {
 }
 
 * {
-    border: 2px solid red;
+  border: 2px solid;
+  padding: 0;
+  margin: 0;
 }
 
 body{
   border-color: orange;
-  text-align: center;
 }
 
 #container {
   border-color: blue;
-  display: inline-flex;
-  aspect-ratio: 1/1;
-  max-width: 100%;
-  max-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  aspect-ratio: 1;
+  max-height: calc(99vh - 72px);
+  margin: auto;
+}
+
+.squares {
+  border-color: black;
+  aspect-ratio: 1;
+}
+
+button {
+  padding: 4px 6px;
+  margin: 20px;
+  border-radius: 5px;
 }
