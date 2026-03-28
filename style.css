@@ -1,40 +1,24 @@
-html {
-  box-sizing: border-box;
-  border-color: green;
-}
+html { box-sizing: border-box; }
 
 *,
 *::before,
-*::after {
-  box-sizing: inherit;
-}
+*::after { box-sizing: inherit; }
 
-* {
-  border: 2px solid;
-  padding: 0;
-  margin: 0;
-}
-
-body{
-  border-color: orange;
-}
-
-#container {
-  border-color: blue;
-  display: flex;
-  flex-wrap: wrap;
-  aspect-ratio: 1;
-  max-height: calc(99vh - 72px);
-  margin: auto;
-}
-
-.squares {
-  border-color: black;
-  aspect-ratio: 1;
-}
+* { touch-action: none; }
 
 button {
   padding: 4px 6px;
   margin: 20px;
   border-radius: 5px;
 }
+
+#container {
+  border: 1px solid rgb(156, 156, 189);
+  display: flex;
+  flex-wrap: wrap;
+  aspect-ratio: 1;
+  max-height: calc(90vh - 70px);
+  margin: auto;
+}
+
+.square { aspect-ratio: 1; }
